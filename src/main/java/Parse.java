@@ -15,6 +15,9 @@ import org.jsoup.select.Elements;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
+/**
+ * Parser class
+ */
 public class Parse {
     public static void main( String[] args ) throws IOException{
         Document doc = Jsoup.connect("https://oxu.az/politics").get();
