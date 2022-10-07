@@ -16,7 +16,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
 /**
- * Parser class
+ * Parser class.
  */
 public class Parse {
     public static void main( String[] args ) throws IOException{
